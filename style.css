@@ -40,6 +40,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .nav-links {
@@ -77,4 +79,24 @@ nav {
 
 .menu-btn {
   display: none;
+}
+
+main {
+  background-color: var(--Very--Dark--Violet);
+  display: flex;
+  height: 100vh;
+  padding: 6rem;
+  justify-content: space-between;
+}
+
+.main-left {
+  align-self: center;
+}
+
+.main-left h1 {
+  color: var(--Very--Light--Gray);
+  font-family: "DM Serif Display", serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 40px;
 }
