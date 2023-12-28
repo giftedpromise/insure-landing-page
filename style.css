@@ -40,8 +40,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 45px;
+  padding-right: 80px;
 }
 
 .nav-links {
@@ -84,9 +84,12 @@ nav {
 main {
   background-color: var(--Very--Dark--Violet);
   display: flex;
-  height: 100vh;
+  height: 90vh;
   padding: 6rem;
   justify-content: space-between;
+  padding-left: 140px;
+  padding-right: 175px;
+  position: relative;
 }
 
 .main-left {
@@ -97,6 +100,45 @@ main {
   color: var(--Very--Light--Gray);
   font-family: "DM Serif Display", serif;
   font-weight: 700;
-  font-size: 3rem;
-  line-height: 40px;
+
+  font-size: 4rem;
+  line-height: 1;
+  letter-spacing: -0.67px;
+  position: relative;
+}
+
+.main-left p {
+  color: var(--Very--Light--Gray);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Karla", sans-serif;
+  line-height: 1.5;
+}
+
+.main-btn {
+  color: var(--Very--Light--Gray);
+
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid var(--Very--Light--Gray);
+
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding: 0.8rem 2rem;
+}
+
+.main-btn:hover {
+  color: var(--Very--Dark--Violet);
+  background-color: var(--Very--Light--Gray);
+}
+
+.main-left hr {
+  position: absolute;
+  width: 140px;
+  top: 100px;
+}
+
+.main-image {
+  display: block;
+  position: relative;
 }
