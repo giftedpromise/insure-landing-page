@@ -54,4 +54,47 @@
     background-color: transparent;
     cursor: pointer;
   }
+
+  .intro-deskop {
+    display: none;
+  }
+
+  .desktop-image {
+    display: none;
+  }
+
+  .intro-mobile {
+    display: flex;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+    width: 120%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .main-left {
+    padding-top: 6rem;
+  }
+
+  .main-left hr {
+    display: none;
+  }
+
+  .main-left h1 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .main-left h1 br {
+    display: none;
+  }
+
+  .main-image img {
+    width: 85%;
+  }
 }
