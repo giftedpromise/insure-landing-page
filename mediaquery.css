@@ -70,15 +70,16 @@
   main {
     display: flex;
     flex-direction: column-reverse;
+    justify-content: center;
     padding: 0;
     width: 120%;
     height: 100%;
-    text-align: center;
-    justify-content: center;
+    padding-bottom: 22rem;
   }
 
   .main-left {
-    padding-top: 6rem;
+    padding-top: 5rem;
+    width: 100%;
   }
 
   .main-left hr {
@@ -86,15 +87,56 @@
   }
 
   .main-left h1 {
-    text-align: center;
     font-size: 2.5rem;
+    text-align: center;
+    padding-right: 8rem;
+    padding-left: 2rem;
   }
 
   .main-left h1 br {
     display: none;
   }
 
+  .main-left p br {
+    display: none;
+  }
+
+  .main-left p {
+    text-align: center;
+    padding-right: 6rem;
+    padding-left: 2rem;
+  }
+
+  .main-bt {
+    text-align: center;
+    padding-right: 3rem;
+  }
+
   .main-image img {
     width: 85%;
+  }
+
+  .mobile-image {
+    display: flex;
+  }
+
+  .one {
+    position: relative;
+    overflow-x: hidden;
+    height: 100vh;
+  }
+
+  .left-image-mobile {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 190px;
+  }
+
+  .right-image-mobile {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 528px;
   }
 }

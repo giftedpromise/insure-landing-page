@@ -19,6 +19,7 @@ body {
   font-family: "Karla", sans-serif;
   font-size: 16px;
   scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 header {
@@ -161,5 +162,9 @@ main {
 }
 
 .intro-mobile {
+  display: none;
+}
+
+.mobile-image {
   display: none;
 }
