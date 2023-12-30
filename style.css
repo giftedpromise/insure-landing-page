@@ -192,3 +192,30 @@ main {
   width: 140px;
   top: -2.5rem;
 }
+
+.second-column2 {
+  display: flex;
+  margin-top: 4rem;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.second-row {
+  width: 27%;
+  align-self: flex-start;
+}
+
+.second-row h3 {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--Very--Dark--Violet);
+  font-family: "DM Serif Display", serif;
+}
+
+.second-row p {
+  margin-top: 0.5rem;
+  line-height: 1.5;
+  color: var(--Dark--Grayish--Violet);
+}
