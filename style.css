@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 :root {
   --Dark--Violet: hsl(256, 26%, 20%);
   --Grayish--Blue: hsl(216, 30%, 68%);
@@ -19,7 +23,6 @@ body {
   font-family: "Karla", sans-serif;
   font-size: 16px;
   scroll-behavior: smooth;
-  overflow: hidden;
 }
 
 header {
@@ -84,7 +87,8 @@ nav {
 
 .one {
   position: relative;
-  overflow-x: hidden;
+  margin-bottom: 4rem;
+  overflow-x: initial;
 }
 
 .left-image-desktop {
@@ -167,4 +171,24 @@ main {
 
 .mobile-image {
   display: none;
+}
+
+.second {
+  position: relative;
+  margin-top: 22rem;
+  margin-left: 6rem;
+}
+
+.second h1 {
+  color: black;
+  font-size: 3.7rem;
+  font-family: "DM Serif Display", serif;
+  color: var(--Very--Dark--Violet);
+  margin-top: 2rem;
+}
+
+.second hr {
+  position: absolute;
+  width: 140px;
+  top: -2.5rem;
 }
