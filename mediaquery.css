@@ -185,4 +185,46 @@
     margin-left: 2;
     margin-right: 2;
   }
+
+  .third {
+    background-image: url(images/bg-pattern-how-we-work-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 4rem 1rem 3rem 1rem;
+    margin: 4rem 1rem 4rem 1rem;
+    position: relative;
+    background-color: var(--Very--Dark--Violet);
+  }
+
+  .work {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work h1 {
+    color: var(--Very--Light--Gray);
+    font-family: "DM Serif Display", serif;
+    font-size: 2rem;
+    font-weight: 400;
+    width: 100%;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .we-work {
+    text-align: center;
+  }
+
+  .work-btn {
+    color: var(--Very--Light--Gray);
+
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid var(--Very--Light--Gray);
+
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0.6rem 1.4rem;
+  }
 }
