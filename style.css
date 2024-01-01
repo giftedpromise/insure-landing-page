@@ -218,3 +218,44 @@ main {
   line-height: 1.5;
   color: var(--Dark--Grayish--Violet);
 }
+
+.third {
+  background-image: url(images/bg-pattern-how-we-work-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 4rem;
+  margin: 6rem 12rem 6rem 6rem;
+  position: relative;
+  background-color: var(--Very--Dark--Violet);
+}
+
+.work {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work h1 {
+  color: var(--Very--Light--Gray);
+  font-family: "DM Serif Display", serif;
+  font-size: 3rem;
+  font-weight: 400;
+  width: 43%;
+  line-height: 1;
+}
+
+.work-btn {
+  color: var(--Very--Light--Gray);
+
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid var(--Very--Light--Gray);
+
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+}
+
+.work-btn:hover {
+  color: var(--Very--Dark--Violet);
+  background-color: var(--Very--Light--Gray);
+}
