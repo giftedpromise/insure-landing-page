@@ -226,7 +226,7 @@ main {
   padding: 4rem;
   margin: 6rem 12rem 6rem 6rem;
   position: relative;
-  background-color: var(--Very--Dark--Violet);
+  background-color: var(--Dark--Violet);
 }
 
 .work {
@@ -258,4 +258,32 @@ main {
 .work-btn:hover {
   color: var(--Very--Dark--Violet);
   background-color: var(--Very--Light--Gray);
+}
+
+footer {
+  background-color: var(--Very--Light--Gray);
+  margin: 2rem 0rem 2rem 0rem;
+  padding-left: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.footer-column-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-links-icons {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 0.8rem;
+  margin-right: 12rem;
+}
+
+.social-links-icons img {
+  cursor: pointer;
+}
+.social-links-icons img:hover {
+  filter: brightness(0);
 }
