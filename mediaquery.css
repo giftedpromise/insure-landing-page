@@ -156,12 +156,12 @@
   }
 
   .second {
-    margin-top: 4rem;
+    margin-top: 8rem;
   }
   .second hr {
     position: absolute;
     width: 140px;
-    top: -2.5rem;
+    top: -1.8rem;
     left: 120px;
   }
 
@@ -264,9 +264,9 @@
 
   footer hr {
     position: absolute;
-    width: 310px;
+    width: 330px;
     margin-left: 1rem;
-    top: 2480px;
+    top: 2550px;
     border-color: var(--Very--Light--Gray);
   }
 }
