@@ -231,7 +231,7 @@
   footer {
     padding: 0;
     background-color: var(--Very--Light--Gray);
-    margin: 2rem 0rem 2rem 0rem;
+    margin-top: 2rem 0rem 0rem 0rem;
     padding-top: 5.5rem;
     padding-bottom: 4rem;
     background-image: url(images/bg-pattern-footer-mobile.svg);
