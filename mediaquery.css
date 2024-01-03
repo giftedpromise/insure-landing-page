@@ -231,9 +231,10 @@
   footer {
     padding: 0;
     background-color: var(--Very--Light--Gray);
-    margin: 2rem 1rem 2rem 1rem;
-    padding-top: 4rem;
+    margin: 2rem 0rem 2rem 0rem;
+    padding-top: 5.5rem;
     padding-bottom: 4rem;
+    background-image: url(images/bg-pattern-footer-mobile.svg);
   }
 
   .footer-column-one {
@@ -246,5 +247,26 @@
 
   .social-links-icons {
     margin-right: 0;
+  }
+
+  .footer-column-two {
+    display: flex;
+    margin-top: 6rem;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-links li {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  footer hr {
+    position: absolute;
+    width: 310px;
+    margin-left: 1rem;
+    top: 2480px;
+    border-color: var(--Very--Light--Gray);
   }
 }

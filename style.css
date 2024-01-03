@@ -190,6 +190,7 @@ main {
   position: absolute;
   width: 140px;
   top: -2.5rem;
+  border-color: var(--Very--Light--Gray);
 }
 
 .second-column2 {
@@ -262,10 +263,12 @@ main {
 
 footer {
   background-color: var(--Very--Light--Gray);
-  margin: 2rem 0rem 2rem 0rem;
+  margin: 2rem 0rem 0rem 0rem;
   padding-left: 6rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
+  background-image: url(images/bg-pattern-footer-desktop.svg);
+  background-repeat: no-repeat;
 }
 
 .footer-column-one {
